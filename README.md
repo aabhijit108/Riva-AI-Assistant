@@ -58,9 +58,9 @@ Selenium, OpenCV (planned)
 gTTS, googletrans (planned for voice translation)
 
 📦 Installation
-bash
-Copy
-Edit
+
+bash Copy Edit
+
 git clone https://github.com/aabhijit108/Riva-AI-Assistant.git
 cd Riva-AI-Assistant
 pip install -r requirements.txt
@@ -68,15 +68,15 @@ python riva_gui.py
 ⚠️ Make sure to set your OpenRouter API key in config.py or .env.
 
 📂 Project Structure
-graphql
-Copy
-Edit
+
+graphql Copy Edit
+
 ├── riva_gui.py            # Main GUI launcher
 ├── riva_assistant.py      # Core logic
 ├── pdf_reader.py          # File reader module
 ├── config.py              # API keys and configs
 ├── assets/                # Sounds, logos (optional)
 └── README.md
+
 🙋‍♂️ Author
 Developed by Abhijit Adhikari
-LinkedIn • GitHub
