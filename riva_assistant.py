@@ -31,8 +31,8 @@ from pdf_reader import read_document
 
 # Initialize Spotify
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="eb662e5f26f84f78a7a371d44c5be00b",
-    client_secret="94e58854711042e79a1d500522c752ca",
+    client_id="your own",
+    client_secret="your own",
     redirect_uri="http://127.0.0.1:8888/callback",
     scope="user-read-playback-state user-modify-playback-state user-read-currently-playing"
 ))
