@@ -2,7 +2,7 @@ import requests
 import json
 
 def ask_openrouter(query):
-    API_KEY = "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"
+    API_KEY = "your own API"
 
     headers = {
         "Authorization": f"Bearer {API_KEY}",
